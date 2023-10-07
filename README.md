@@ -35,4 +35,4 @@ DynamoDB database.
 <br /> 7. Scan the DynamoDB table for data records (DynamoDB > Explore items > "your table" > Scan > Run)
 <br />    Result: Events are stored in the DynamoDB. See [Output Screenshot](./output/DynamoDB_Output_Screenshot.jpg).
 <br /> 8. Finally cleanup allocated aws resources.
-            terraform destroy --auto-approve
+<br />      terraform destroy --auto-approve
