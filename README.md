@@ -6,8 +6,10 @@ DynamoDB database.
 ![Image](https://github.com/huyphamch/terraform-aws-create-scalable-web-rds/blob/master/diagrams/AWS_architecture.drawio.png)
 <br />Create Kinesis stream.
 <br />Create Lambda function to store Kinesis events in the DynamoDB.
-<br />Grant Permission to the Lambda function to access the Kinesis stream and write logs to CloudWatch.
-
+<br />Grant Permission to the Lambda function to 
+        - read from the Kinesis stream 
+        - write data to DynamoDB
+        - write logs to CloudWatch
 ## Usage
 <br /> 1. Open terminal
 <br /> 2. Before you can execute the terraform script, your need to configure your aws environment first.
@@ -23,7 +25,9 @@ DynamoDB database.
 <br /> 4. Open [Colaboratory](https://colab.research.google.com) and create new Notebook.
 <br /> 5. Execute command: pip install boto3
 <br /> 6. Execute script: [realtime_data_produce.py](./code/realtime_data_produce.py)
-<br />  Result: Events are written to Kineses.
-<br />  Result: Events are stored in the DynamoDB.
-<br /> 7. At the end you can cleanup the created AWS resources.
+        Note: Before running the script, update the aws access token and region.
+        Result: Events are written to Kineses.
+<br /> 7. Scan the DynamoDB table for data records (DynamoDB > Explore items > "your table" > Scan > Run)
+        Result: Events are stored in the DynamoDB.
+<br /> 8. At the end you can cleanup the created AWS resources.
 <br /> terraform destroy --auto-approve
