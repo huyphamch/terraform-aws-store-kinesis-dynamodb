@@ -16,7 +16,7 @@ DynamoDB database.
 <br />- write data to DynamoDB
 <br />- write logs to CloudWatch
 ## Usage
-1. Open terminal
+<br /> 1. Open terminal
 <br /> 2. Before you can execute the terraform script, your need to configure your aws environment first.
 <br /> aws configure
 <br /> AWS Access Key ID: See IAM > Security credentials > Access keys > Create access key
