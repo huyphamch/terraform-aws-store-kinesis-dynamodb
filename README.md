@@ -4,9 +4,10 @@ DynamoDB database.
 
 ## Solution
 ![Image](https://github.com/huyphamch/terraform-aws-store-kinesis-dynamodb/blob/master/diagrams/AWS_architecture.drawio.png)
-<br />Create Kinesis stream.
-<br />Create Lambda function to store Kinesis events in the DynamoDB.
-<br />Grant Permission to the Lambda function to 
+<br />1. Create AWS Kinesis stream.
+<br />2. Create AWS DynamoDB.
+<br />3. Create AWS Lambda function to store Kinesis events in the DynamoDB.
+<br />4. Grant Permission to the Lambda function to 
 <br />- read data from the Kinesis stream 
 <br />- write data to DynamoDB
 <br />- write logs to CloudWatch
