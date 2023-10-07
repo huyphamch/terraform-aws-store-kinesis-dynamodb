@@ -1,9 +1,9 @@
 ## Description
-<br />TELEMAX is a company that plans to build networks in rapidly growing, underserved markets around the world. The company offers innovative communications hardware that enables them to create many speedefficient networking links with inexpensive hardware.
+TELEMAX is a company that plans to build networks in rapidly growing, underserved markets around the world. The company offers innovative communications hardware that enables them to create many speedefficient networking links with inexpensive hardware.
 <br />Presently, they need, to deploy an effective architecture for NoSQL-based data warehousing built from real-time data being generated that can be analyzed in the future to optimize their topologies continuously. The team decided the AWS cloud is the perfect environment to support their solution needs and they will approach your organization for consultation on the same.
 
 ## Objectives
-<br />To create data in a Kinesis stream that can be copied to the
+To create data in a Kinesis stream that can be copied to the
 DynamoDB database.
 
 ## Solution
@@ -16,7 +16,7 @@ DynamoDB database.
 <br />- write data to DynamoDB
 <br />- write logs to CloudWatch
 ## Usage
-<br /> 1. Open terminal
+1. Open terminal
 <br /> 2. Before you can execute the terraform script, your need to configure your aws environment first.
 <br /> aws configure
 <br /> AWS Access Key ID: See IAM > Security credentials > Access keys > Create access key
