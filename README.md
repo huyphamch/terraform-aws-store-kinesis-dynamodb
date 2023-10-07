@@ -25,9 +25,9 @@ DynamoDB database.
 <br /> 4. Open [Colaboratory](https://colab.research.google.com) and create new Notebook.
 <br /> 5. Execute command: pip install boto3
 <br /> 6. Execute script: [realtime_data_produce.py](./code/realtime_data_produce.py)
-        Note: Before running the script, update the aws access token and region.
-        Result: Events are written to Kineses.
+<br />    Note: Before running the script, update the aws access token and region.
+<br />    Result: Events are written to Kineses.
 <br /> 7. Scan the DynamoDB table for data records (DynamoDB > Explore items > "your table" > Scan > Run)
-        Result: Events are stored in the DynamoDB.
+<br />    Result: Events are stored in the DynamoDB.
 <br /> 8. At the end you can cleanup the created AWS resources.
 <br /> terraform destroy --auto-approve
