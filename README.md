@@ -7,9 +7,9 @@ DynamoDB database.
 <br />Create Kinesis stream.
 <br />Create Lambda function to store Kinesis events in the DynamoDB.
 <br />Grant Permission to the Lambda function to 
-        - read from the Kinesis stream 
-        - write data to DynamoDB
-        - write logs to CloudWatch
+<br />- read data from the Kinesis stream 
+<br />- write data to DynamoDB
+<br />- write logs to CloudWatch
 ## Usage
 <br /> 1. Open terminal
 <br /> 2. Before you can execute the terraform script, your need to configure your aws environment first.
