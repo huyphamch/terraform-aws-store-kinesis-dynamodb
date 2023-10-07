@@ -3,7 +3,7 @@
 DynamoDB database.
 
 ## Solution
-![Image](https://github.com/huyphamch/terraform-aws-create-scalable-web-rds/blob/master/diagrams/AWS_architecture.drawio.png)
+![Image](https://github.com/huyphamch/terraform-aws-store-kinesis-dynamodb/blob/master/diagrams/AWS_architecture.drawio.png)
 <br />Create Kinesis stream.
 <br />Create Lambda function to store Kinesis events in the DynamoDB.
 <br />Grant Permission to the Lambda function to 
