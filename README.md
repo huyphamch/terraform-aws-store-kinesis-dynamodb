@@ -24,8 +24,8 @@ DynamoDB database.
 <br /> Default region name: us-east-1
 <br /> Default output format: json
 <br /> 3. Now you can apply the terraform changes.
-<br /> terraform init
-<br /> terraform apply --auto-approve
+<br />      terraform init
+<br />      terraform apply --auto-approve
 <br /> Result: The Kinesis stream and Lambda function are created and ready to consume events.
 <br /> 4. Open [Colaboratory](https://colab.research.google.com) and create new Notebook.
 <br /> 5. Execute command: pip install boto3
@@ -34,4 +34,5 @@ DynamoDB database.
 <br />    Result: Events are written to Kinesis.
 <br /> 7. Scan the DynamoDB table for data records (DynamoDB > Explore items > "your table" > Scan > Run)
 <br />    Result: Events are stored in the DynamoDB. See [Output Screenshot](./output/DynamoDB_Output_Screenshot.jpg).
-<br /> 8. terraform destroy --auto-approve
+<br /> 8. Finally cleanup allocated aws resources.
+            terraform destroy --auto-approve
